@@ -1,0 +1,246 @@
+body {
+    background: rgb(211, 211, 211);
+    background-image: url(../images/white-greychope.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    
+}
+
+h1 {
+    color:  #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+h2, h3, h4 {
+    color:  #ac2d1f;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p, ul, ol {
+    color: darkslategray;
+}
+
+/* making 1st para distinct - you will apply this class to a p tag */
+
+.openingpara {
+    color:  #ac2d1f;
+    text-align: center;
+    padding: 5px;
+}*/
+
+/* you could also try using Pseudo-elements to highlight the first line or first character */
+/* https://www.w3schools.com/CSS/css_pseudo_elements.asp */
+
+
+
+a:active {
+    text-decoration: none;
+    color: #ac2d1f;
+}
+
+a:link {
+    text-decoration: none;
+    color:#41110c;
+}
+
+
+p > a:visited {
+    color: rgb(107, 31, 72);
+}
+
+.carousel {
+    margin: 10px auto;
+}
+
+
+/* Blur might not work on some browsers. */
+
+
+/* navigation bar */
+
+.navbar-custom {
+    background: rgba(247, 253, 220, 0.9);
+    backdrop-filter: blur(100px);
+}
+
+.navbar-brand {
+    color:  #584e4d;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navbar-brand:hover {
+    color:  #584e4d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: bold;
+}
+
+
+nav a.nav-link:link {
+    color: #584e4d;
+}
+
+nav a.nav-link:active {
+    color: #63160f;
+}
+
+nav a.nav-link:visited {
+    color: #1a4150;
+}
+
+nav a.nav-link:hover {
+    background-color: #584e4d;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    padding: 10px;
+}
+
+.dropdown-item {
+   border-radius: 50px; /* pill shape */
+}
+
+
+.dropdown-menu a{
+    color: #ac2d1f; /* changing dropdown text color  http://css-tricks.com/when-using-important-is-the-right-choice/*/
+}
+
+.dropdown-item.active {
+    background-color: #ac2d1f; /* changing dropdown active hover color */
+}
+
+
+.dropdown-item.active > a, .dropdown-item:active > a {
+    color: white; /* pill text color */
+}
+
+
+
+/* Blur might not work on some browsers. */
+
+/* Cards */
+
+.card {
+    background-color: rgba(247, 253, 220, 0.9);
+    backdrop-filter: blur(10px);
+    margin: 10px auto;
+    border-image: 2rem;;
+}
+
+/* all buttons */
+
+.btn {
+    width: 100%;
+    border-radius: 10rem;
+    background-color: #ac2d1f;
+}
+
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ac2d1f;
+    border-color: darkgray;
+    border-radius: 50px;
+} 
+
+
+h1 {
+    font-weight: bolder;
+}
+.article {
+    text-align:center;
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col-sm-6 {
+    padding: 20px;
+    background-color: lightskyblue;
+    margin-top: 10px;
+}
+.col-1, h2 {
+            text-align: center;
+}
+
+a:link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(0, 0, 0);
+        }
+        a:hover {
+            color: rgb(228, 131, 131);
+            text-decoration: underline;
+        }  
+
+.row h3 {
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.row {
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    max-width: 80%;
+    max-height: 100%;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-fluid {
+    margin-top: 10px;
+}
+
+.col-12 {
+    padding: 20px;
+    background-color: lightskyblue;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+.col-sm-6 {
+    background-color: lightcyan;
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.footer-copyright {
+    padding: 20px;
+}
+
+
